@@ -1,0 +1,164 @@
+body{
+    background-color: greenyellow;
+}
+.kalkulator {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rezultat {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.rezultat h2 {
+    margin-bottom: 15px;
+}
+
+.rezultat p {
+    margin-bottom: 10px;
+}
+
+.rezultat p span {
+    font-weight: bold;
+}
+
+.zakupy {
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.zakupki{
+    list-style-type: none;
+    padding: 0;
+}
+
+.zakupki li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.zakupki li:last-child {
+    border-bottom: none;
+}
+
+.zakupki li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.zakupki li button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wisielec{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hangman-image {
+    margin-top: 20px;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}
+.bmi {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.hasła {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-group, .checkbox-group {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-top: 20px;
+    font-weight: bold;
+}

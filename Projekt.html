@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Budżetu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+    <div class="container">
+        <h1>Kalkulator Budżetu</h1>
+        <div class="form">
+            <label for="income">Dochody:</label>
+            <input type="number" id="income" placeholder="Wprowadź dochody">
+            <label for="expenses">Wydatki:</label>
+            <input type="number" id="expenses" placeholder="Wprowadź wydatki">
+            <button onclick="calculateBudget()">Oblicz</button>
+        </div>
+        <div class="rezultat">
+            <h2>Podsumowanie:</h2>
+            <p id="total-income">Suma dochodów: <span></span></p>
+            <p id="total-expenses">Suma wydatków: <span></span></p>
+            <p id="balance">Bilans: <span></span></p>
+        </div>
+    </div>
+</div>
+</head>
+<div class="zakupy">
+    <div class="container">
+    <h1>Lista zakupów</h1>
+    <form id="addItemForm">
+        <input type="text" id="itemName" placeholder="Dodaj przedmiot">
+        <button type="submit">Dodaj</button>
+    </form>
+    <ul id="zakupki" class="zakupki"></ul>
+</div>
+</div>
+<div class="wisielec">
+<div class="container">
+    <h1>Gra w wisielca</h1>
+    <div class="hangman-word" id="hangmanWord"></div>
+    <div class="hangman-input">
+        <input type="text" id="letterInput" maxlength="1">
+        <button onclick="checkLetter()">Sprawdź literę</button>
+    </div>
+    <div id="hangmanImage" class="hangman-image"></div>
+    <div id="message" class="message"></div>
+</div>
+</div>
+<div class="bmi">
+<div class="container">
+    <h1>Kalkulator BMI</h1>
+    <div class="input-group">
+        <label for="weight">Waga (kg):</label>
+        <input type="number" id="weight" placeholder="Podaj wagę">
+    </div>
+    <div class="input-group">
+        <label for="height">Wzrost (cm):</label>
+        <input type="number" id="height" placeholder="Podaj wzrost">
+    </div>
+    <button onclick="calculateBMI()">Oblicz BMI</button>
+    <div id="result" class="result"></div>
+</div>
+</div>
+<div class="hasła">
+<div class="container">
+    <h1>Generator Haseł</h1>
+    <div class="input-group">
+        <label for="length">Długość hasła:</label>
+        <input type="number" id="length" min="4" max="20" value="8">
+    </div>
+    <div class="checkbox-group">
+        <input type="checkbox" id="uppercase" checked>
+        <label for="uppercase">Wielkie litery</label>
+        <input type="checkbox" id="numbers" checked>
+        <label for="numbers">Cyfry</label>
+        <input type="checkbox" id="symbols" checked>
+        <label for="symbols">Znaki specjalne</label>
+    </div>
+    <button onclick="generatePassword()">Generuj Hasło</button>
+    <div id="password" class="password"></div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
